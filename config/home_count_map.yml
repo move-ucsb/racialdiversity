@@ -1,0 +1,137 @@
+config:
+  mapState:
+    bearing: 0
+    dragRotate: false
+    isSplit: false
+    latitude: 33.980304
+    longitude: -118.187078
+    pitch: 0
+    zoom: 9
+  mapStyle:
+    mapStyles: {}
+    styleType: dark
+    threeDBuildingColor:
+    - 9.665468314072013
+    - 17.18305478057247
+    - 31.1442867897876
+    topLayerGroups: {}
+    visibleLayerGroups:
+      3d building: false
+      border: false
+      building: true
+      label: true
+      land: true
+      road: true
+      water: true
+  visState:
+    animationConfig:
+      currentTime: null
+      speed: 1
+    filters: []
+    interactionConfig:
+      brush:
+        enabled: false
+        size: 0.5
+      coordinate:
+        enabled: false
+      geocoder:
+        enabled: false
+      tooltip:
+        compareMode: false
+        compareType: absolute
+        enabled: true
+        fieldsToShow:
+          h:
+          - format: null
+            name: block_group_id
+          - format: null
+            name: devices
+          - format: null
+            name: colorscale
+    layerBlending: normal
+    layers:
+    - config:
+        color:
+        - 130
+        - 154
+        - 227
+        columns:
+          geojson: geom
+        dataId: h
+        hidden: false
+        isVisible: true
+        label: h
+        textLabel:
+        - alignment: center
+          anchor: start
+          color:
+          - 255
+          - 255
+          - 255
+          field: null
+          offset:
+          - 0
+          - 0
+          size: 18
+        visConfig:
+          colorRange:
+            category: Uber
+            colors:
+            - 'blue'
+            - 'yellow'
+            - '#feb24c'
+            - '#fd8d3c'
+            - '#f03b20'
+            - '#bd0026'
+            name: UberPool 6
+            type: diverging
+          elevationScale: 5
+          enable3d: false
+          filled: true
+          heightRange:
+          - 0
+          - 500
+          opacity: 0.4
+          radius: 10
+          radiusRange:
+          - 0
+          - 50
+          sizeRange:
+          - 0
+          - 10
+          strokeColor:
+          - 249
+          - 232
+          - 245
+          strokeColorRange:
+            category: Uber
+            colors:
+            - '#5A1846'
+            - '#900C3F'
+            - '#C70039'
+            - '#E3611C'
+            - '#F1920E'
+            - '#FFC300'
+            name: Global Warming
+            type: sequential
+          strokeOpacity: 0.4
+          stroked: true
+          thickness: 0.2
+          wireframe: false
+      id: 5wcu8u
+      type: geojson
+      visualChannels:
+        colorField:
+          name: colorscale
+          type: real
+        colorScale: quantize
+        heightField: null
+        heightScale: linear
+        radiusField: null
+        radiusScale: linear
+        sizeField: null
+        sizeScale: linear
+        strokeColorField: null
+        strokeColorScale: quantile
+    splitMaps: []
+version: v1
